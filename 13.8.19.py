@@ -12,6 +12,6 @@ Final_price=sum(listMask)
 print('Вы заказали, билетов:',int(Tickets))
 print('Стоимость билетов:',(listMask),'рублей') 
 if Final_price>=2970 and int(Tickets)>=3:  
-    print('Общая стоимость билетов c учетом скидки составит:',Final_price*0.9,'рублей')
+    print('Общая стоимость билетов c учетом скидки составит:', Final_price*0.9,'рублей')
 else:
-    print('Общая стоимость билетов составит:',Final_price,'рублей')
+    print('Общая стоимость билетов составит:', Final_price,'рублей')
